@@ -53,3 +53,15 @@ footer{padding-block:38px;background:#041426}
 .footer-mark{width:190px;height:66px}
 @media(max-width:850px){.site-header{background:rgba(7,27,51,.97)}.site-header nav{background:#0d2745}.hero-copy{min-height:68vh;padding:105px 24px 46px}.hero-visual{min-height:46vh}.podcast-art{min-height:400px}.service-list article{grid-template-columns:78px 1fr}.service-list article>b{grid-column:2}.about-grid{margin-left:0}}
 @media(max-width:540px){h1{font-size:3rem}h2{font-size:2.65rem}.section{padding:58px 20px}.wordmark{width:142px;height:50px}.player-shell{margin-inline:-20px}.podcast-copy,.contact-section{padding:58px 20px}.gallery{grid-auto-rows:220px}.about-section{padding:62px 20px}.service-list article{grid-template-columns:1fr;gap:4px}.service-list article>b{grid-column:1}.footer-mark{width:170px;height:58px}}
+
+/* Logo, original hero and uniform expandable gallery */
+.wordmark img{object-fit:contain;background:#292929}
+.hero-visual img{object-fit:contain;background:#eeeae0}
+.gallery{grid-auto-rows:auto;gap:12px}
+.gallery-item{aspect-ratio:4/3}
+.gallery-wide{grid-column:auto}
+.gallery-item:after{content:'Expand';position:absolute;right:12px;bottom:11px;padding:4px 9px;border:1px solid rgba(255,255,255,.7);border-radius:999px;background:rgba(7,27,51,.72);color:#fff;font-size:.62rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;opacity:0;transition:opacity .2s ease}
+.gallery-item:hover:after,.gallery-item:focus-visible:after{opacity:1}
+.image-dialog{width:min(1400px,96vw);max-width:none}
+.image-dialog img{max-height:92vh}
+@media(max-width:540px){.gallery{grid-auto-rows:auto}}
