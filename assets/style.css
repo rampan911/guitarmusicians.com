@@ -117,3 +117,18 @@ h1,h2{letter-spacing:.008em}
 .story-dialog-copy .eyebrow{color:#536678}.story-dialog-copy h2{font-size:clamp(2rem,4vw,3.8rem);color:#173d61;line-height:1.08}.story-dialog-copy>p:not(.eyebrow){line-height:1.8}.story-dialog-copy .button{margin-top:12px}
 @media(max-width:850px){.story-dialog[open]{grid-template-columns:1fr}.story-dialog>img{max-height:34vh}.story-preview{max-width:none}.platforms{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:540px){.platforms{grid-template-columns:1fr}.story-dialog-copy{padding:28px 22px}}
+
+/* Canada lockup, standard platform marks and stronger release story */
+.brand-lockup{display:flex;align-items:center;gap:18px}
+.canada-mark{display:flex;align-items:center;gap:6px;color:#f2eadb;font-size:.73rem;letter-spacing:.08em}
+.canada-mark em{font-style:normal;font-weight:700}.canada-mark b{font-size:1rem;line-height:1}
+.story-preview span{font-size:1.08rem;letter-spacing:.06em;color:#173d61}
+.story-preview strong{font-size:.84rem;font-weight:500;color:#47525b;line-height:1.55}
+.story-preview i{margin-top:8px;color:#173d61}
+.platforms{grid-template-columns:repeat(4,minmax(0,1fr));gap:7px}
+.platforms .platform{gap:7px;min-height:48px;padding:6px 8px;border-radius:6px}
+.platform-logo,.amazon-logo-wrap{flex:0 0 27px;width:27px;height:27px}
+.platform-logo{object-fit:contain}.amazon-logo-wrap{display:grid;place-items:center;border-radius:50%;background:#fff}.amazon-logo-wrap .platform-logo{width:18px;height:18px;filter:none}
+.platform small{font-size:.52rem}.platform strong{font-size:.69rem;white-space:nowrap}
+@media(max-width:850px){.canada-mark{font-size:.68rem}.platforms{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:540px){.brand-lockup{gap:9px}.canada-mark b:last-child{display:none}.platforms{grid-template-columns:repeat(2,minmax(0,1fr))}.platforms .platform{width:auto}}
