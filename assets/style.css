@@ -151,3 +151,8 @@ h2{font-size:clamp(2.45rem,4.6vw,4.8rem)}
 .canada-dialog>svg{width:54px;height:54px;fill:#ff0000}
 .canada-dialog h2{margin:.2em 0;font-size:2rem;color:#173d61}
 .canada-dialog p{margin:0;font-size:1.05rem}
+
+/* Proper Canadian maple-leaf silhouette */
+.canada-mark svg,.canada-dialog>svg{display:none}
+.canada-leaf{display:inline-block;width:23px;height:26px;background:#ff0000;mask:url('images/canadian-maple-leaf.svg') center/contain no-repeat;-webkit-mask:url('images/canadian-maple-leaf.svg') center/contain no-repeat}
+.dialog-leaf{width:58px;height:66px}
