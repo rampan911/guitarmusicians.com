@@ -65,3 +65,13 @@ footer{padding-block:38px;background:#041426}
 .image-dialog{width:min(1400px,96vw);max-width:none}
 .image-dialog img{max-height:92vh}
 @media(max-width:540px){.gallery{grid-auto-rows:auto}}
+
+/* Review refinements: balanced type, slimmer ticker and side-cropped logo */
+body{letter-spacing:.01em}
+h1,h2{letter-spacing:.008em}
+.ticker div{padding:3px 0;font-size:.82rem;letter-spacing:.09em}
+.ticker span{margin-inline:16px}
+.wordmark{width:100px}
+.wordmark img{width:auto;height:100%;max-width:none;object-fit:initial;background:transparent}
+.footer-mark{width:114px}
+.hero-visual img{object-fit:cover;background:var(--black)}
