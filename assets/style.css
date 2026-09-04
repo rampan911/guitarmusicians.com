@@ -240,3 +240,10 @@ footer{padding-block:24px}
   h1{font-size:2.45rem}
   h2{font-size:2.15rem}
 }
+
+/* Center the compact footer as one balanced stack on phones */
+@media(max-width:540px){
+  footer{justify-items:center;text-align:center;gap:12px}
+  footer .footer-mark{margin-inline:auto}
+  footer p,footer small{width:100%;text-align:center}
+}
