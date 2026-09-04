@@ -156,3 +156,12 @@ h2{font-size:clamp(2.45rem,4.6vw,4.8rem)}
 .canada-mark svg,.canada-dialog>svg{display:none}
 .canada-leaf{display:inline-block;width:23px;height:26px;background:#ff0000;mask:url('images/canadian-maple-leaf.svg') center/contain no-repeat;-webkit-mask:url('images/canadian-maple-leaf.svg') center/contain no-repeat}
 .dialog-leaf{width:58px;height:66px}
+
+/* Pond5 placement, compact country mark and podcast identity */
+.canada-mark em{font-size:.62rem;letter-spacing:.06em}
+.pond5-strip{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px clamp(20px,7vw,110px);background:#102d4d;border-bottom:1px solid var(--line)}
+.pond5-strip div span,.pond5-strip div strong{display:block}.pond5-strip div span{text-transform:uppercase;color:var(--acid);font-size:.62rem;font-weight:800;letter-spacing:.12em}.pond5-strip div strong{font-size:1rem;letter-spacing:.02em}.pond5-strip>a{flex:0 0 auto;padding:8px 14px;border:1px solid #71879b;border-radius:999px;color:#f2eadb;text-decoration:none;text-transform:uppercase;font-size:.65rem;font-weight:800;letter-spacing:.08em}.pond5-strip>a:hover{background:var(--acid);border-color:var(--acid);color:var(--black)}
+.podcast-art img{filter:none;object-position:center}
+footer{grid-template-columns:auto 1fr auto;align-items:center}.footer-mark{grid-row:auto}footer small{text-align:right}
+@media(max-width:850px){footer{grid-template-columns:1fr}.pond5-strip{align-items:flex-start}}
+@media(max-width:540px){.pond5-strip{padding:15px 20px}.pond5-strip div strong{font-size:.86rem}.pond5-strip>a{padding:7px 10px;font-size:.58rem}}
