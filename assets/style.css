@@ -165,3 +165,10 @@ h2{font-size:clamp(2.45rem,4.6vw,4.8rem)}
 footer{grid-template-columns:auto 1fr auto;align-items:center}.footer-mark{grid-row:auto}footer small{text-align:right}
 @media(max-width:850px){footer{grid-template-columns:1fr}.pond5-strip{align-items:flex-start}}
 @media(max-width:540px){.pond5-strip{padding:15px 20px}.pond5-strip div strong{font-size:.86rem}.pond5-strip>a{padding:7px 10px;font-size:.58rem}}
+
+/* Stronger Pond5 feature and compact podcast badge */
+.pond5-strip{padding-block:24px;background:var(--acid);color:var(--black);border-block:1px solid #9f8d68}
+.pond5-strip div span{color:#173d61}.pond5-strip div small{display:block;margin-top:2px;color:#4f4a40;font-size:.76rem}.pond5-strip>a{border-color:var(--black);background:var(--black);color:var(--white)}.pond5-strip>a:hover{background:#173d61;border-color:#173d61;color:#fff}
+.podcast-title-row{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:12px}
+.podcast-title-row .eyebrow{margin:0}.podcast-title-row img{width:82px;height:82px;object-fit:cover;border:2px solid rgba(255,255,255,.75);border-radius:8px;box-shadow:0 8px 24px rgba(3,14,27,.22)}
+@media(max-width:540px){.pond5-strip{padding-block:18px}.pond5-strip div small{display:none}.podcast-title-row img{width:64px;height:64px}}
