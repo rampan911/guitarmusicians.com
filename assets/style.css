@@ -172,3 +172,11 @@ footer{grid-template-columns:auto 1fr auto;align-items:center}.footer-mark{grid-
 .podcast-title-row{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:12px}
 .podcast-title-row .eyebrow{margin:0}.podcast-title-row img{width:82px;height:82px;object-fit:cover;border:2px solid rgba(255,255,255,.75);border-radius:8px;box-shadow:0 8px 24px rgba(3,14,27,.22)}
 @media(max-width:540px){.pond5-strip{padding-block:18px}.pond5-strip div small{display:none}.podcast-title-row img{width:64px;height:64px}}
+
+/* Video-linked story title and branded Pond5 action */
+.story-preview{cursor:default}.story-preview:hover{background:rgba(255,255,255,.22);border-color:#b8ad98}
+.story-video-button,.story-read-button{border:0;background:transparent;color:#173d61;font:inherit;cursor:pointer;text-align:left}
+.story-video-button{display:flex;align-items:center;gap:9px;padding:0;font-family:var(--display);font-size:1.18rem;text-transform:uppercase;letter-spacing:.05em}
+.mini-play{display:grid;place-items:center;width:27px;height:27px;border-radius:50%;background:#173d61;color:#fff;font-family:Arial,sans-serif;font-size:.58rem;padding-left:2px}.story-video-button:hover,.story-video-button:focus-visible,.story-read-button:hover,.story-read-button:focus-visible{color:#4a789d}.story-preview>strong{display:block;margin:7px 0;font-size:.84rem;font-weight:500;color:#47525b;line-height:1.55}.story-read-button{padding:0;margin-top:3px;font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+.pond5-strip div>span{font-family:var(--display);font-size:1.02rem;letter-spacing:.07em}.pond5-strip>a{display:flex;align-items:center;gap:8px}.pond5-strip>a img{width:21px;height:21px;filter:invert(1)}
+.podcast-title-row a{display:block;border-radius:8px}.podcast-title-row a:hover img,.podcast-title-row a:focus-visible img{transform:scale(1.05);box-shadow:0 10px 30px rgba(3,14,27,.4)}.podcast-title-row img{transition:transform .2s ease,box-shadow .2s ease}
