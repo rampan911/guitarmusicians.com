@@ -192,4 +192,13 @@ footer{grid-template-columns:auto 1fr auto;align-items:center}.footer-mark{grid-
 .platforms .platform small,.platforms .platform strong{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .platforms .platform strong{font-size:clamp(.56rem,.72vw,.69rem)}
 @media(max-width:1050px) and (min-width:851px){.platforms .platform{gap:5px;padding-inline:6px}.platform-logo,.amazon-logo-wrap{flex-basis:24px;width:24px;height:24px}.platforms .platform strong{font-size:.56rem}}
+
+/* Tighter section rhythm */
+.music-section{padding-top:45px;padding-bottom:52px}
+.services-section{padding-top:48px;padding-bottom:55px}
+.about-section{padding-top:44px;padding-bottom:46px}
+.about-section blockquote{margin-block:18px}
+.about-grid{margin-top:28px}
+.contact-section{padding-top:44px;padding-bottom:46px}
+@media(max-width:540px){.music-section,.services-section{padding-top:40px;padding-bottom:44px}.about-section,.contact-section{padding-top:38px;padding-bottom:40px}}
 .mini-play{display:none}
