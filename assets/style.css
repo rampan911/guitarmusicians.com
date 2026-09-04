@@ -184,4 +184,12 @@ footer{grid-template-columns:auto 1fr auto;align-items:center}.footer-mark{grid-
 /* Keep the story title's original appearance while making it clickable */
 .story-video-button{display:block;padding:0;font-family:var(--sans);font-size:1.08rem;font-weight:800;line-height:1.4;text-transform:uppercase;letter-spacing:.06em;color:#173d61}
 .story-video-button{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:5px}
+
+/* Keep streaming labels contained beside their logos at every width */
+.platforms .platform{min-width:0;overflow:hidden}
+.platforms .platform>span:last-child{min-width:0;flex:1;overflow:hidden}
+.platforms .platform-logo,.platforms .amazon-logo-wrap{flex-shrink:0}
+.platforms .platform small,.platforms .platform strong{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.platforms .platform strong{font-size:clamp(.56rem,.72vw,.69rem)}
+@media(max-width:1050px) and (min-width:851px){.platforms .platform{gap:5px;padding-inline:6px}.platform-logo,.amazon-logo-wrap{flex-basis:24px;width:24px;height:24px}.platforms .platform strong{font-size:.56rem}}
 .mini-play{display:none}
